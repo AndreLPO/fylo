@@ -1,0 +1,19 @@
+$darkBlue: hsl(228, 56%, 26%);
+$borderRaius: 10px;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: $darkBlue;
+  width: 353px;
+  padding: 48px;
+  border-radius: $borderRaius 100px $borderRaius $borderRaius;
+  img {
+    width: 135px;
+  }
+  .iconsList {
+    display: flex;
+    margin-top: 32px;
+    gap: 16px;
+  }
+}

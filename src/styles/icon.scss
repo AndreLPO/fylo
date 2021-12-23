@@ -1,0 +1,13 @@
+$veryDarkBlue: hsl(229, 57%, 11%);
+
+.icone {
+  display: flex;
+  background-color: $veryDarkBlue;
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+  img {
+    object-fit: contain;
+    padding: 12px;
+  }
+}
