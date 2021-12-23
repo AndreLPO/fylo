@@ -1,12 +1,29 @@
 $veryDarkBlue: hsl(229, 57%, 11%);
+
+@font-face {
+  font-family: Raleway;
+  src: url("../assets/fonts/Raleway/Raleway-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("../assets/fonts/Raleway/Raleway-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Raleway;
+  color: #fff;
 }
 
 .fylo {
   background: $veryDarkBlue url(../assets/img/bg-desktop.png) no-repeat bottom;
   background-size: 100% 52%;
   height: 100vh;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
