@@ -22,8 +22,8 @@ $veryDarkBlue: hsl(229, 57%, 11%);
   background: $veryDarkBlue url(../assets/img/bg-desktop.png) no-repeat bottom;
   background-size: 100% 52%;
   height: 100vh;
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  grid-template-rows: 1fr 216px 1fr;
 }

@@ -1,5 +1,6 @@
 $paleBlue: hsl(243, 100%, 93%);
 $grayishBlue: hsl(229, 7%, 55%);
+$veryDarkBlue: hsl(229, 57%, 11%);
 $darkBlue: hsl(228, 56%, 26%);
 
 .usageCard {
@@ -9,4 +10,8 @@ $darkBlue: hsl(228, 56%, 26%);
   flex-direction: column;
   gap: 18px;
   border-radius: 10px;
+  align-self: end;
+  grid-column: 3;
+  grid-row: 2;
+  position: relative;
 }

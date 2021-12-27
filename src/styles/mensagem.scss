@@ -1,0 +1,25 @@
+$veryDarkBlue: hsl(229, 57%, 11%);
+$grayishBlue: hsl(229, 7%, 55%);
+
+.mensagem {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  right: 40px;
+  top: -30px;
+  border-radius: 10px;
+  padding: 21px 26px;
+  border: 2px solid $veryDarkBlue;
+  gap: 10px;
+  .destaque {
+    font-size: 2rem;
+    font-family: "Raleway-bold";
+    color: $veryDarkBlue;
+  }
+  p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: $grayishBlue;
+  }
+}

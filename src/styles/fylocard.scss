@@ -7,6 +7,8 @@ $borderRaius: 10px;
   background: $darkBlue;
   width: 353px;
   padding: 48px;
+  grid-column: 2;
+  grid-row: 2;
   border-radius: $borderRaius 100px $borderRaius $borderRaius;
   img {
     width: 135px;
