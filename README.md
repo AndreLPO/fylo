@@ -32,7 +32,7 @@ Users should be able to:
 
 My rersults for today:
 
-![image](https://user-images.githubusercontent.com/69281348/147175221-a8dcce07-af32-443b-82df-d31315d63dcc.png)
+![image](https://user-images.githubusercontent.com/69281348/147497798-007f52e2-2c3d-4b08-99cf-d8967f1cfc89.png)
 
 ### Links
 
