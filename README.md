@@ -28,11 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
 My rersults for today:
-
-![image](https://user-images.githubusercontent.com/69281348/147497798-007f52e2-2c3d-4b08-99cf-d8967f1cfc89.png)
+![image](https://user-images.githubusercontent.com/69281348/147503934-817dda0d-8403-46c9-b61b-afcfc2039a59.png)
 
 ### Links
 
