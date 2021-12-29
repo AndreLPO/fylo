@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-My rersults for today:
-![image](https://user-images.githubusercontent.com/69281348/147503934-817dda0d-8403-46c9-b61b-afcfc2039a59.png)
+Desktop:
+![image](https://user-images.githubusercontent.com/69281348/147669834-36fc22c9-d538-4243-9d06-4dafa409e018.png)
 
 ### Links
 
