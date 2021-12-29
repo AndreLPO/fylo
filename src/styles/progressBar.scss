@@ -10,23 +10,36 @@ $veryDarkBlue: hsl(229, 57%, 11%);
   gap: 10px;
   .progressBar {
     display: block;
-    background: linear-gradient(to right, $gradient1, $gradient2);
-    height: 18px;
+    background: $veryDarkBlue;
+    height: 20px;
     border-radius: 999px;
     grid-column: span 2;
-    box-shadow: 0px 0px 0px 3px $veryDarkBlue;
     position: relative;
 
-    // &::after {
-    //   content: "";
-    //   position: absolute;
-    //   top: -50%;
-    //   right: 0;
-    //   background-color: red;
-    //   height: 40px;
-    //   width: 40px;
-    //   border-radius: 999px;
-    // }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(to right, $gradient1, $gradient2);
+      height: 16px;
+      border-radius: 999px;
+      width: 70%;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background-color: #fff;
+      top: 2px;
+      left: 68%;
+      bottom: 0;
+      right: 0;
+      border-radius: 999px;
+    }
   }
 
   p:last-child {
