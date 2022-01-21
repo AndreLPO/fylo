@@ -1,4 +1,12 @@
+$paleBlue: hsl(243, 100%, 93%);
+$gradient1: hsl(6, 100%, 80%);
+$gradient2: hsl(335, 100%, 65%);
+$grayishBlue: hsl(229, 7%, 55%);
+$darkBlue: hsl(228, 56%, 26%);
 $veryDarkBlue: hsl(229, 57%, 11%);
+
+$screen-mobile: 375px;
+$screen-desktop: 900px;
 
 @font-face {
   font-family: Raleway;
@@ -10,6 +18,18 @@ $veryDarkBlue: hsl(229, 57%, 11%);
   src: url("../assets/fonts/Raleway/Raleway-Bold.ttf");
 }
 
+@mixin mobile {
+  @media (min-width: $screen-mobile) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $screen-desktop) {
+    @content;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +39,24 @@ $veryDarkBlue: hsl(229, 57%, 11%);
 }
 
 .fylo {
-  background: $veryDarkBlue url(../assets/img/bg-desktop.png) no-repeat bottom;
-  background-size: 100% 52%;
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 30px;
-  grid-template-rows: 1fr 216px 1fr;
+  @include mobile {
+    background: $veryDarkBlue no-repeat center;
+    background-size: cover;
+    background-image: url(../assets/img/bg-mobile.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  @include desktop {
+    background: $veryDarkBlue no-repeat bottom;
+    display: grid;
+    background-image: url(../assets/img/bg-desktop.png);
+    background-size: 100% 52%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 216px 1fr;
+    column-gap: 30px;
+  }
 }

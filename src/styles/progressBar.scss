@@ -1,10 +1,11 @@
-$gradient1: hsl(6, 100%, 80%);
-$gradient2: hsl(335, 100%, 65%);
-$veryDarkBlue: hsl(229, 57%, 11%);
+@import "main";
 
 .progressContainer {
+  @include desktop {
+    width: 455px;
+  }
+
   display: grid;
-  width: 455px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;

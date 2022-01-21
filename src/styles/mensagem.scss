@@ -1,30 +1,13 @@
-$veryDarkBlue: hsl(229, 57%, 11%);
-$grayishBlue: hsl(229, 7%, 55%);
+@import "main";
 
 .mensagem {
   position: absolute;
   display: flex;
   align-items: center;
   background-color: #fff;
-  right: 40px;
-  top: -40px;
   border-radius: 10px;
-  padding: 16px 26px;
   gap: 10px;
-
-  &::after {
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    border-left: 30px solid transparent;
-    /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
-    /*Aqui entra a cor da "aba" do balão */
-    border-top: 30px solid;
-    bottom: -20px; /*localização. Experimente alterar para 'bottom'*/
-    right: 0;
-  }
-
+  padding: 16px 26px;
   .destaque {
     font-size: 2rem;
     font-family: "Raleway-bold";
@@ -34,5 +17,26 @@ $grayishBlue: hsl(229, 7%, 55%);
     font-size: 0.75rem;
     font-weight: bold;
     color: $grayishBlue;
+  }
+  @include mobile {
+    right: 90px;
+    top: 135px;
+  }
+  @include desktop {
+    right: 40px;
+    top: -40px;
+
+    &::after {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-left: 30px solid transparent;
+      /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+      /*Aqui entra a cor da "aba" do balão */
+      border-top: 30px solid;
+      bottom: -20px; /*localização. Experimente alterar para 'bottom'*/
+      right: 0;
+    }
   }
 }
