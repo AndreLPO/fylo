@@ -36,8 +36,8 @@ Desktop:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-page-using-sass-mixins-ibjCqFnmV)
+- Live Site URL: [Github Pages](https://andrelpo.github.io/fylo/)
 
 ## My process
 
