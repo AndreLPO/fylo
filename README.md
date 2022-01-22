@@ -28,7 +28,11 @@ Users should be able to:
 
 Mobile:
 
+![image](https://user-images.githubusercontent.com/69281348/150615127-ae5439af-53b9-43ae-8e11-f55bcb30266a.png)
+
 Desktop:
+
+![image](https://user-images.githubusercontent.com/69281348/150615145-9c14cc14-3245-4ac2-bcdd-a71b1c317dcf.png)
 
 ### Links
 
